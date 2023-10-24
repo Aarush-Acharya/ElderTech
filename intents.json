@@ -1,0 +1,399 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you",
+        "Hii"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi there! How are you doing?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later! Have a great day."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "age_related_stress",
+      "patterns": [
+        "I'm feeling stressed about getting older",
+        "I'm worried about aging",
+        "I'm anxious about the future as I get older"
+      ],
+      "responses": [
+        "It's natural to have some concerns about aging, but it's important to remember that getting older can also bring new opportunities and experiences. What can you do to manage your stress and focus on the positive aspects of getting older?",
+        "Aging can bring new challenges, but it can also be a time of growth and self-discovery. Is there something specific that is causing you to feel stressed about getting older?",
+        "It's understandable to have concerns about aging, but it's important to remember that there are many ways to maintain your mental and physical health as you get older. Is there something specific that is causing you to feel anxious about the future?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "managing_stress",
+      "patterns": [
+        "I don't know how to manage my stress",
+        "I'm not sure what to do to cope with my stress",
+        "I feel overwhelmed by my stress"
+      ],
+      "responses": [
+        "There are many ways to manage stress, including exercising regularly, finding healthy ways to relax, setting aside time for activities you enjoy, and seeking support from friends and loved ones. It can also be helpful to talk to a mental health professional, who can provide you with coping strategies and support. What have you found helpful in managing your stress in the past?",
+        "It can be overwhelming to try to cope with stress on your own. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support. What have you found helpful in managing your stress in the past?",
+        "There are many ways to manage stress, including exercising regularly, finding healthy ways to relax, setting aside time for activities you enjoy, and seeking support from friends and loved ones. It can also be helpful to talk to a mental health professional, who can provide you with coping strategies and support. Have you tried any of these strategies in the past, and if so, what has been most helpful for you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely",
+        "I'm lonely",
+        "I don't have anyone to talk to",
+        "I don't have friends",
+        "I don't have family",
+        "I'm always alone"
+      ],
+      "responses": [
+        "Loneliness is a common feeling, but it's important to remember that there are many ways to connect with others and find support. Have you consideredjoining a social group or club, volunteering, or reaching out to friends and loved ones for support and companionship? It can also be helpful to talk to a mental health professional, who can provide you with additional coping strategies and support. How have you been coping with your feelings of loneliness?",
+        "Loneliness can be difficult to cope with, but it's important to remember that there are many ways to find support and connect with others. Have you considered reaching out to friends and loved ones for companionship, joining a social group or club, or volunteering in your community? It can also be helpful to talk to a mental health professional, who can provide you with additional coping strategies and support. How have you been coping with your feelings of loneliness?",
+        "It's understandable to feel lonely at times, but it's important to remember that there are many ways to find support and connect with others. Have you considered reaching out to friends and loved ones for companionship, joining a social group or club, or volunteering in your community? It can also be helpful to talk to a mental health professional, who can provide you with additional coping strategies and support. Is there anything specific that you have found helpful in coping with your feelings of loneliness in the past?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "memory_loss",
+      "patterns": [
+        "I'm worried about memory loss",
+        "I'm concerned about my memory",
+        "I'm forgetting things more often"
+      ],
+      "responses": [
+        "It's natural to be concerned about memory loss as we age, but it's important to remember that there are many ways to maintain cognitive health. Have you considered engaging in mentally stimulating activities, eating a healthy diet, and staying physically active?",
+        "Memory loss is a common concern as we age, but it's important to remember that there are many ways to maintain cognitive health. Have you considered engaging in mentally stimulating activities, eating a healthy diet, and staying physically active?",
+        "Concerns about memory loss are common as we age, but it's important to remember that there are many ways to maintain cognitive health. Have you considered engaging in mentally stimulating activities, eating a healthy diet, and staying physically active?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I'm feeling depressed",
+        "I'm struggling with depression",
+        "I feel hopeless"
+      ],
+      "responses": [
+        "Depression is a serious condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Depression is a serious condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Depression is a serious condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm feeling anxious",
+        "I'm struggling with anxiety",
+        "I feel nervous"
+      ],
+      "responses": [
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends andfriends and loved ones for support.",
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "financial_stress",
+      "patterns": [
+        "I'm worried about money",
+        "I'm struggling financially",
+        "I'm having trouble paying bills"
+      ],
+      "responses": [
+        "Financial stress can be a difficult thing to deal with, but there are many resources available to help. Have you considered seeking financial advice from a professional or reaching out to a local organization for support?",
+        "Money can be a source of stress, but there are many resources available to help. Have you considered seeking financial advice from a professional or reaching out to a local organization for support?",
+        "Financial stress can be overwhelming, but there are many resources available to help. Have you considered seeking financial advice from a professional or reaching out to a local organization for support?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "health_concerns",
+      "patterns": [
+        "I'm worried about my health",
+        "I'm not feeling well",
+        "I have a health concern"
+      ],
+      "responses": [
+        "It's important to take care of your health and seek medical attention if you have any concerns. Have you considered scheduling an appointment with your doctor or speaking to a healthcare professional?",
+        "Your health is important and it's important to seek medical attention if you have any concerns. Have you considered scheduling an appointment with your doctor or speaking to a healthcare professional?",
+        "It's important to take care of your health and speak to a healthcare professional if you have any concerns. Have you considered scheduling an appointment with your doctor or speaking to a healthcare professional?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "caregiving",
+      "patterns": [
+        "I'm a caregiver",
+        "I'm taking care of someone",
+        "I'm responsible for someone's care"
+      ],
+      "responses": [
+        "Being a caregiver can be challenging, but it's also a rewarding experience. Have you considered seeking support from a local organization or support group for caregivers?",
+        "Caregiving is a challenging but rewarding experience. Have you considered seeking support from a local organization or support group for caregivers?",
+        "Taking care of someone can be challenging, but it's important to remember that you're not alone. Have you considered seeking support from a local organization or support group for caregivers?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sleep_problems",
+      "patterns": [
+        "I'm having trouble sleeping",
+        "I can't fall asleep",
+        "I wake up during the night"
+      ],
+      "responses": [
+        "Sleep problems can be caused by a variety of factors, but there are many strategies that can help. Have you considered speaking to a healthcare professional, creating a relaxing bedtime routine, and avoiding screens before bed?",
+        "Trouble sleeping can be caused by a variety of factors, but there are many strategies that can help. Have youconsidered speaking to a healthcare professional, creating a relaxing bedtime routine, and avoiding screens before bed?",
+        "Having trouble sleeping can be frustrating, but there are many strategies that can help. Have you considered speaking to a healthcare professional, creating a relaxing bedtime routine, and avoiding screens before bed?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_lonely",
+      "patterns": [
+        "I feel lonely",
+        "I'm feeling isolated",
+        "I'm alone"
+      ],
+      "responses": [
+        "Feeling lonely can be difficult, but there are many ways to connect with others and find support. Have you considered reaching out to friends and loved ones, joining a club or group, or volunteering in your community?",
+        "Isolation can be difficult, but there are many ways to connect with others and find support. Have you considered reaching out to friends and loved ones, joining a club or group, or volunteering in your community?",
+        "Feeling alone can be difficult, but there are many ways to connect with others and find support. Have you considered reaching out to friends and loved ones, joining a club or group, or volunteering in your community?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_depressed",
+      "patterns": [
+        "depressing",
+        "depression",
+        "I'm feeling down"
+      ],
+      "responses": [
+        "Depression is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Feeling down can be a symptom of depression and it's important to seek help. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Depression is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_overwhelmed",
+      "patterns": [
+        "I feel overwhelmed",
+        "I'm feeling stressed",
+        "I'm feeling pressure"
+      ],
+      "responses": [
+        "Feeling overwhelmed can be a normal response to stress, but it's important to find healthy ways to cope. Have you considered engaging in stress-reducing activities like exercise, meditation, or talking to a therapist?",
+        "Stress can be overwhelming, but there are many strategies that can help. Have you considered engaging in stress-reducing activities like exercise, meditation, or talking to a therapist?",
+        "Feeling overwhelmed can be a normal response to stress, but it's important to find healthy ways to cope. Have you considered engaging in stress-reducing activities like exercise, meditation, or talking to a therapist?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_bored",
+      "patterns": [
+        "I feel bored",
+        "I'm feeling unoccupied",
+        "I'm feeling uninterested"
+      ],
+      "responses": [
+        "Feeling bored can be anormal response to feeling unoccupied, but there are many ways to find new interests and activities. Have you considered trying a new hobby, volunteering in your community, or joining a club or group?",
+        "Feeling unoccupied can lead to boredom, but there are many ways to find new interests and activities. Have you considered trying a new hobby, volunteering in your community, or joining a club or group?",
+        "Feeling uninterested can lead to boredom, but there are many ways to find new interests and activities. Have you considered trying a new hobby, volunteering in your community, or joining a club or group?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_anxious",
+      "patterns": [
+        "I'm feeling nervous",
+        "I'm feeling worried",
+        "I'm having anxiety",
+        "anxiety",
+        "I'm having anxious thoughts"
+      ],
+      "responses": [
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to engage in stress-reducing activities like exercise, meditation, or talking to a therapist.",
+        "Feeling nervous can be a symptom of anxiety and it's important to seek help. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to engage in stress-reducing activities like exercise, meditation, or talking to a therapist.",
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to engage in stress-reducing activities like exercise, meditation, or talking to a therapist."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feeling_tired",
+      "patterns": [
+        "I feel tired",
+        "I'm feeling fatigued",
+        "I'm feeling exhausted"
+      ],
+      "responses": [
+        "Feeling tired can be a normal response to a busy lifestyle, but it can also be a symptom of a more serious condition. Have you considered speaking to a healthcare professional, who can help determine the cause of your fatigue and provide you with appropriate treatment and support?",
+        "Fatigue can be a normal response to a busy lifestyle, but it can also be a symptom of a more serious condition. Have you considered speaking to a healthcare professional, who can help determine the cause of your fatigue and provide you with appropriate treatment and support?",
+        "Exhaustion can be a normal response to a busy lifestyle, but it can also be a symptom of a more serious condition. Have you considered speaking to a healthcare professional, who can help determine the cause of your exhaustion and provide you with appropriate treatment and support?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "Goodbye"
+      ],
+      "responses": [
+        "Take care, come back and see me soon if you need to.",
+        "It was nice talking to you, have a great day!",
+        "Goodbye, I hope you feel better soon."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Questions",
+      "patterns": [
+        "Who are you?"
+      ],
+      "responses": [
+        "I'm your personal chatbot who will help you reflect your thoughts and feelings :)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "retirement",
+      "patterns": [
+        "retirement",
+        "I don't know what I'll do after my retirement",
+        "retiring from job",
+        "jobless"
+      ],
+      "responses": [
+        "..."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "I feel sad",
+        "I feel anxious",
+        "I feel depressed",
+        "I feel lonely",
+        "I don't feel good",
+        "I am feeling low"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you tell me more about how you're feeling?",
+        "It's important to identify and express your feelings. Can you elaborate on that for me?",
+        "It's okay to feel that way. Can you describe what's been going on?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "I want to change my medication",
+        "I want to stop taking my medication",
+        "I'm having side effects from my medication",
+        "I'm not sure if my medication is working"
+      ],
+      "responses": [
+        "I understand. Changing or adjusting medication can be a big decision. Can you tell me more about what's been going on?",
+        "Stopping medication should only be done under the guidance of a healthcare professional. Let's discuss your concerns.",
+        "I'm sorry to hear that you're experiencing side effects. Let's talk about what we can do to help.",
+        "It's important to regularly assess the effectiveness of medication. Can you tell me more about your concerns?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you very much",
+        "Thanks a lot",
+        "I really appreciate it"
+      ],
+      "responses": [
+        "You're welcome.",
+        "I'm here to help.",
+        "No problem, take care."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison!",
+        "I invented a new word! Plagiarism!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "quotes",
+      "patterns": [
+        "Make me happy",
+        "Cheer me up",
+        "I need to change my mood",
+        "Tell me something",
+        "Tell me some good quotes",
+        "Need some positivity",
+        "Need to hear something good",
+        "I need to cheer up"
+      ],
+      "responses": [
+        " 'There is love, there is music, there is no limit, there is work, there is the precious sense that this is the hour of grace when all things gather and distil to create the rest of my life. I don't believe in God, I believe in everything.' ",
+        " 'Tomorrow is always fresh, with no mistakes in it yet' ",
+        " 'Today will be better. Not because the world has dealt you better cards, but because you choose to use them to your advantage. Today, you choose happiness.' ",
+        " 'Happiness is not something ready made. It comes from your own actions.' ",
+        " 'Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.' ",
+        " 'Imagine walking over a ray of sunshine. Everything is warm and full of light and there is a smile, not on your lips, but rather deep inside of you. There is no past or future, time doesn't exist. You feel like you are becoming one with the sun. You're walking through infinity, one step at a time. Turns out happiness was always a part of you, you just had to allow it to break through. And freedom, freedom was just one tiny step in front of you.' ",
+        " 'So far, you have made it through all of your worst days. Well done, Keep going friend!' ",
+        " 'to be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness' ",
+        " 'If happiness visits you again, do not remember it's previous betrayal. Enter into the happiness and burst' ",
+        " 'I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe.' "
+      ],
+      "context_set": ""
+    },
+    {"tag": "good",
+    "patterns": ["I feel happy!",
+                "I am better than before!",
+                "I am happy!",
+                "I feel good these days",
+                "Today was a good day",
+                "I have found a new light in my life",
+                "I feel like i have a new purpose in life!"],
+    "responses": ["Wow that is so great, I am happy our sessions have been working out for you!."],
+    "context_set": ""
+    }
+  ]
+}
