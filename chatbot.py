@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import json
 import pickle
