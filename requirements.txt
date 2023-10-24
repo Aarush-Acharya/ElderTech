@@ -1,5 +1,4 @@
 fastapi
-python
 gooey
 keras
 nltk
