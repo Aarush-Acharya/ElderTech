@@ -1,4 +1,4 @@
-fastapi==0.104.0
+fastapi
 gooey==1.0.8.1
 keras==2.13.1
 nltk==3.8.1
