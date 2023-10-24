@@ -5,4 +5,3 @@ nltk
 numpy
 pydantic
 tensorflow
-tensorflow_macos
