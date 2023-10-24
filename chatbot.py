@@ -1,33 +1,19 @@
 from fastapi import FastAPI
-
 import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
 import json
 import pickle
-
 import numpy as np
-import tensorflow as tf
 from keras.models import load_model
-from keras.layers import Dense, Activation, Dropout
-from keras.optimizers import SGD
 import random
-
-from gooey import Gooey 
-
-from typing import Union
-
-from fastapi import FastAPI
 from pydantic import BaseModel
 
+lemmatizer = WordNetLemmatizer()
 
 class Body(BaseModel):
     userQuery: str
-    
-app = FastAPI()
 
+app = FastAPI()
 
 @app.get("/")
 async def root():
@@ -38,6 +24,7 @@ intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 model=load_model('chatbotmodel.h5')
+
 
 @app.post("/getResponse")
 async def giveResponse(body: Body):

@@ -1,7 +1,4 @@
 fastapi
-gooey
 keras
 nltk
 numpy
-pydantic
-tensorflow
