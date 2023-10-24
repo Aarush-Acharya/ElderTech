@@ -15,7 +15,7 @@ from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 import random
 
-from gooey import Gooey
+from gooey import Gooey 
 
 from typing import Union
 
