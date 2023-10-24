@@ -5,7 +5,6 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import json
 import pickle
-
 import numpy as np
 import tensorflow as tf
 from keras.models import Sequential
